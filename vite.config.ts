@@ -20,5 +20,6 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, './src')
     }
-  }
+  },
+  base: './', // Ensures correct asset resolution for static hosting
 })
